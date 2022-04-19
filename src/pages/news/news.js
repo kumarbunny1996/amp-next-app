@@ -21,22 +21,22 @@ export default function NewsSection({ news }) {
               ></amp-img>
             </div>
             <div className="news-section1">
-              {news.map((item, index) => (
+              {/* {news.map((item, index) => (
                 <NewsComponent key={index} article={item} />
-              ))}
+              ))} */}
             </div>
           </div>
           <div className="news-section2">
-            {news.slice(0, 4).map((item, index) => (
+            {/* {news.slice(0, 4).map((item, index) => (
               <AmpVideo key={index} article={item} />
-            ))}
+            ))} */}
           </div>
           <div className="news-section3">
-            {news.map((item, index) => (
+            {/* {news.map((item, index) => (
               <Link key={index} href={item.link}>
                 <p className="border">{item.title}</p>
               </Link>
-            ))}
+            ))} */}
           </div>
         </div>
       </section>

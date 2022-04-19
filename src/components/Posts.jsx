@@ -28,8 +28,8 @@ const Posts = ({ posts }) => {
               <Link
                 key={index}
                 href={{
-                  pathname: "/post/[slug]",
-                  query: { slug: post.title },
+                  pathname: `post/${post?.title}`,
+                  // query: { slug: post.title },
                 }}
                 passHref
               >

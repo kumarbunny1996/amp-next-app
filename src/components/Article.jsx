@@ -10,16 +10,15 @@ const Articles = ({ articles }) => {
         <div className="art-head">Today news</div>
         <div className="art-section">
           {articles.map((article, index) => (
-
             <Link
               key={index}
               href={{
-                pathname: "/article/[slug]",
-                query: { slug: article.title },
+                pathname: `/article/${article.title}`,
+                // query: { slug: article.title },
               }}
             >
               <ArticlesNews article={article}></ArticlesNews>
-            </Link> 
+            </Link>
           ))}
         </div>
       </section>

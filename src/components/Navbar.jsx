@@ -14,7 +14,7 @@ const Navbar = () => {
         >
           <HiMenuAlt4></HiMenuAlt4>
         </div>
-        <Link href="/news/news">
+        <Link href="news/web-stories">
           <div className="black">News</div>
         </Link>
         <Link href="">
